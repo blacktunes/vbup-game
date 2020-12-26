@@ -2,6 +2,6 @@
 null,
 {"id":1,"expanded":false,"name":"初始页面","order":1,"parentId":0,"scrollX":534,"scrollY":304},
 {"id":2,"expanded":true,"name":"公寓","order":2,"parentId":0,"scrollX":534,"scrollY":304},
-{"id":3,"expanded":false,"name":"公寓2","order":3,"parentId":2,"scrollX":0,"scrollY":0},
+{"id":3,"expanded":false,"name":"走廊","order":3,"parentId":2,"scrollX":0,"scrollY":0},
 {"id":4,"expanded":false,"name":"房间","order":4,"parentId":2,"scrollX":0,"scrollY":0}
 ]
