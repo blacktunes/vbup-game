@@ -169,7 +169,18 @@ function Scene_Splash() {
         this._mvFadeIn = false;
         this._customFadeOut = false;
         this._customFadeIn = false;
+        document.addEventListener("keydown", this.skip.bind(this), {
+            once: true
+        });
+        document.addEventListener("mousedown", this.skip.bind(this), {
+            once: true
+        });
     };
+
+    Scene_Splash.prototype.skip = function (event) {
+        this._mvFadeOut = true;
+        this.startFadeOut(0, false);
+    }
 
     Scene_Splash.prototype.create = function() {
         Scene_Base.prototype.create.call(this);
